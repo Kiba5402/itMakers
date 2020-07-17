@@ -1,0 +1,11 @@
+.content {
+    text-align: center;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    max-height: 25em;
+    overflow-y: auto;
+}
+
+button {
+    margin-left: 1em;
+}

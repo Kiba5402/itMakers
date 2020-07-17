@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+}
+
+.elements {
+    margin: auto;
+}
+
+.json {
+    margin: auto;
+    font-size: 0.9em;
+}

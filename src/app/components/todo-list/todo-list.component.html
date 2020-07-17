@@ -1,0 +1,13 @@
+<div class="main">
+    <div class="elements">
+        <input type="checkbox" value="El1" (click)="onItemClick(items[0], $event)"><span> Elemento 1</span><br>
+        <input type="checkbox" value="El2" (click)="onItemClick(items[1], $event)"><span> Elemento 2</span><br>
+        <input type="checkbox" value="El3" (click)="onItemClick(items[2], $event)"><span> Elemento 3</span><br>
+        <input type="checkbox" value="El4" (click)="onItemClick(items[3], $event)"><span> Elemento 4</span><br> </div>
+    <div class="json">
+        <span>Items</span>
+        <pre>
+         {{items | json}}
+     </pre>
+    </div>
+</div>
